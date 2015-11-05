@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\example">
+      <UniqueIdentifier>{f41985ea-6dea-4438-9963-4ebed075a470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\example\sms">
+      <UniqueIdentifier>{004cb711-9ec8-4f45-9980-5b6f705f9c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\example\senderid">
+      <UniqueIdentifier>{4fccec87-b610-4f10-be24-50098cab7ded}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Include\csmd5.c">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coolsms.c">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example_balance.c">
+      <Filter>Resource Files\Source Files\example\sms</Filter>
+    </ClCompile>
+    <ClCompile Include="example_cancel.c">
+      <Filter>Resource Files\Source Files\example\sms</Filter>
+    </ClCompile>
+    <ClCompile Include="example_send.c">
+      <Filter>Resource Files\Source Files\example\sms</Filter>
+    </ClCompile>
+    <ClCompile Include="example_sent.c">
+      <Filter>Resource Files\Source Files\example\sms</Filter>
+    </ClCompile>
+    <ClCompile Include="example_register.c">
+      <Filter>Resource Files\Source Files\example\senderid</Filter>
+    </ClCompile>
+    <ClCompile Include="example_verify.c">
+      <Filter>Resource Files\Source Files\example\senderid</Filter>
+    </ClCompile>
+    <ClCompile Include="example_delete.c">
+      <Filter>Resource Files\Source Files\example\senderid</Filter>
+    </ClCompile>
+    <ClCompile Include="example_list.c">
+      <Filter>Resource Files\Source Files\example\senderid</Filter>
+    </ClCompile>
+    <ClCompile Include="example_setdefault.c">
+      <Filter>Resource Files\Source Files\example\senderid</Filter>
+    </ClCompile>
+    <ClCompile Include="example_getdefault.c">
+      <Filter>Resource Files\Source Files\example\senderid</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\csmd5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coolsms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
