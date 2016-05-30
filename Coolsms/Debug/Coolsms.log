@@ -1,5 +1,0 @@
-﻿  example_sent.c
-  example_send.c
-c:\users\hensley\sdk\rest\c\coolsms\example_send.c(59): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  코드를 생성하고 있습니다...
-  Coolsms.vcxproj -> C:\Users\Hensley\sdk\rest\c\Debug\Coolsms.exe

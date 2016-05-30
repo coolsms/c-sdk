@@ -1,0 +1,29 @@
+﻿  image.c
+  example_verify.c
+  example_upload_image.c
+  example_status.c
+  example_set_default.c
+  example_sent.c
+  example_sender_id_list.c
+  example_send_group.c
+  example_send.c
+  example_register.c
+  example_new_group.c
+  example_message_list.c
+  example_image_list.c
+  example_image_info.c
+  example_group_list.c
+  example_group_info.c
+  example_get_default.c
+  example_delete_sender_id.c
+  example_delete_messages.c
+  example_delete_images.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  example_delete_groups.c
+  example_cancel.c
+  example_balance.c
+  example_add_messages_json.c
+  example_add_messages.c
+  코드를 생성하고 있습니다...
+  c-sdk.vcxproj -> C:\Users\Hensley\Documents\Visual Studio 2015\Projects\c-sdk\c-sdk\Debug\c-sdk.exe

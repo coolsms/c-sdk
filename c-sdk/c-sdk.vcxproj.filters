@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Examples">
+      <UniqueIdentifier>{93986b75-0967-4873-9b07-03209321e334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Examples\Message">
+      <UniqueIdentifier>{e49a9d56-a40c-46c5-b951-7eb2193f371f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Examples\GroupMessage">
+      <UniqueIdentifier>{51fc2919-57db-4087-9936-a3fe2a1df91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Examples\SenderID">
+      <UniqueIdentifier>{ece0ce30-e858-4e30-a9d8-4bc7c242cab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Examples\Image">
+      <UniqueIdentifier>{324f2bdd-8904-4b1d-9ab6-775a74d36746}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="csmd5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="example_send.c">
+      <Filter>소스 파일\Examples\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="example_sent.c">
+      <Filter>소스 파일\Examples\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="example_cancel.c">
+      <Filter>소스 파일\Examples\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="example_balance.c">
+      <Filter>소스 파일\Examples\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="example_status.c">
+      <Filter>소스 파일\Examples\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="example_new_group.c">
+      <Filter>소스 파일\Examples\GroupMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="example_group_list.c">
+      <Filter>소스 파일\Examples\GroupMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="example_group_info.c">
+      <Filter>소스 파일\Examples\GroupMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="example_delete_groups.c">
+      <Filter>소스 파일\Examples\GroupMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="example_upload_image.c">
+      <Filter>소스 파일\Examples\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="example_image_list.c">
+      <Filter>소스 파일\Examples\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="example_image_info.c">
+      <Filter>소스 파일\Examples\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="example_delete_images.c">
+      <Filter>소스 파일\Examples\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="example_add_messages.c">
+      <Filter>소스 파일\Examples\GroupMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="example_add_messages_json.c">
+      <Filter>소스 파일\Examples\GroupMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="example_message_list.c">
+      <Filter>소스 파일\Examples\GroupMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="example_delete_messages.c">
+      <Filter>소스 파일\Examples\GroupMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="example_send_group.c">
+      <Filter>소스 파일\Examples\GroupMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="example_register.c">
+      <Filter>소스 파일\Examples\SenderID</Filter>
+    </ClCompile>
+    <ClCompile Include="example_verify.c">
+      <Filter>소스 파일\Examples\SenderID</Filter>
+    </ClCompile>
+    <ClCompile Include="example_delete_sender_id.c">
+      <Filter>소스 파일\Examples\SenderID</Filter>
+    </ClCompile>
+    <ClCompile Include="example_sender_id_list.c">
+      <Filter>소스 파일\Examples\SenderID</Filter>
+    </ClCompile>
+    <ClCompile Include="example_get_default.c">
+      <Filter>소스 파일\Examples\SenderID</Filter>
+    </ClCompile>
+    <ClCompile Include="example_set_default.c">
+      <Filter>소스 파일\Examples\SenderID</Filter>
+    </ClCompile>
+    <ClCompile Include="coolsms_main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="group_message.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sender_id.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="image.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="message.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="coolsms.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="csmd5.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="test.jpg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
